@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main3Activity">
+
+    <TextView
+        android:textSize="30dp"
+        android:id="@+id/apptitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:onClick="recognition"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="识别" />
+
+    <Button
+        android:onClick="query"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="查询" />
+
+    <Button
+        android:onClick="analyze"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="分析" />
+
+    <Button
+        android:onClick="setting"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="设置" />
+
+    <Button
+        android:onClick="test"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="测试" />
+
+    <Button
+        android:onClick="clear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="清空" />
+</LinearLayout>
